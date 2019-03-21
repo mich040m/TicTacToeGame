@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.489
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTacToeGame", "TicTacToeGame\TicTacToeGame.csproj", "{DC16CF3D-360A-477C-8BE2-420DE36B2022}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTacToeEngine", "TicTacToeEngine\TicTacToeEngine.csproj", "{24EEA614-BABE-4189-B026-7963C8636DB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTacToeDomain", "TicTacToeDomain\TicTacToeDomain.csproj", "{F427B249-5597-4CBA-8807-D911B1FAB7E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTacToe", "TicTacToe\TicTacToe.csproj", "{0F7B6FB0-60B8-4815-AAA0-831A950E3530}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DC16CF3D-360A-477C-8BE2-420DE36B2022}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DC16CF3D-360A-477C-8BE2-420DE36B2022}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DC16CF3D-360A-477C-8BE2-420DE36B2022}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DC16CF3D-360A-477C-8BE2-420DE36B2022}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24EEA614-BABE-4189-B026-7963C8636DB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24EEA614-BABE-4189-B026-7963C8636DB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24EEA614-BABE-4189-B026-7963C8636DB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24EEA614-BABE-4189-B026-7963C8636DB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F427B249-5597-4CBA-8807-D911B1FAB7E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F427B249-5597-4CBA-8807-D911B1FAB7E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F427B249-5597-4CBA-8807-D911B1FAB7E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F427B249-5597-4CBA-8807-D911B1FAB7E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F7B6FB0-60B8-4815-AAA0-831A950E3530}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F7B6FB0-60B8-4815-AAA0-831A950E3530}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F7B6FB0-60B8-4815-AAA0-831A950E3530}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F7B6FB0-60B8-4815-AAA0-831A950E3530}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
